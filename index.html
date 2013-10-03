@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hamptons.com Mobile</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<link rel="stylesheet" href="css/hamptons02.min.css" />
+<style>
+	.datenav{color:#39F;font-size:10pt;}
+	.datenav:hover{color:#3FF;}
+</style>
+</head>
+
+<body>
+
+	<!-- HOME -->
+	<div data-role="page" id="eventListPage" data-theme="a" >
+		<!-- header -->
+		<div data-role="header">
+			<div align="center" style="width:100%;background-color:#000000;font-size:9pt;color:#b8b8b8;padding:4px 0px;cursor:pointer;" id="topad">
+				Need a website? Get a FREE quote today from Hamptons.com!
+			</div>
+			<div style="width:100%;padding:10px 0px 0px 0px;text-align:center;">
+				<a href="./" rel="external"><img src="img/logo01.png"></a>
+			</div>
+			<div align="center"><div id="datenav"></div></div>
+		</div>
+		<!-- content -->
+		<div data-role="content" style="background:url('img/bg.jpg');background-size: 100% auto;background-color:#fff;background-repeat:no-repeat;">
+			<ul id="eventList" data-role="listview" data-inset="false" data-theme="a" style="display:hidden;margin:30px auto 20px auto;width:85%;"></ul>
+		</div>
+		<!-- footer -->
+		<div data-role="footer" data-position="fixed">
+			<h4>&copy; <a href="http://www.hamptons.com" target="_blank" style="color:#fff">Hamptons.com</a></h4>
+		</div>
+	</div>
+	
+</body>
+
+<script src="js/jquery.1.10.2.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+<script src="js/eventlist.js"></script>
+<script src="js/event.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('#topad').click( function(){
+			window.open("http://www.hamptons.com/Web-Design/","_blank")
+		});
+	});
+</script>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+    
+<body>
+
+	<!-- HOME -->
+	<div id="eventPage" data-role="page" data-add-back-btn="true" data-theme="a">
+		<!-- header -->
+		<div data-role="header">
+			<div style="width:100%;padding:10px 0px 0px 0px;text-align:center;">
+				<a href="./" rel="external"><img src="img/logo01.png"></a>
+			</div>
+			<div align="center"><div id="datenav"></div></div>
+		</div>
+		<!-- content -->
+		<div data-role="content" style="background:url('img/bg.jpg');background-size: 100% auto;background-color:#fff;background-repeat:no-repeat;min-height:250px;">
+			<div style="background-color:#fff;padding:10px 10px 10px 10px;">
+				<img id="eventPic"/>
+				<div id="eventDetails">
+					<h3 id="title"></h3>
+					<p id="eventDate"></p>
+					<p id="description"></p>
+				</div>
+				 <!--<ul id="eventDisplay" data-role="listview" style="display:hidden"></ul>-->
+				 <ul id="actionList" data-role="listview" data-inset="true" style="background-color:#fff;"></ul>
+			 </div>
+		</div>
+		<!-- footer -->
+		<div data-role="footer" data-position="fixed">
+			<h4>&copy; <a href="http://www.hamptons.com" target="_blank" style="color:#fff">Hamptons.com</a></h4>
+		</div>
+	</div>
+	
+</body>
+
+<script src="js/jquery.1.10.2.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+<script src="js/eventlist.js"></script>
+<script src="js/event.js"></script>
+
+</html>
