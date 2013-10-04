@@ -1,7 +1,5 @@
 var serviceURL = "http://www.hamptons.com/m/php/";
 
-var homelist;
-
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -98,7 +96,6 @@ function getUrlVars() {
 
 
 $(document).on('pageshow', '#eventListPage', function(event) {
-
 	var mode=getParameterByName('mode');
 	showDateNav();
 	showEventList(mode);
