@@ -27,5 +27,8 @@
 	<icon src="icons/ios/icon-72.png" gap:platform="ios" height="72"  width="72" />
 	<icon src="icons/ios/icon-57-2x.png" gap:platform="ios" height="114"  width="114" />
 	<icon src="icons/ios/icon-72-2x.png" gap:platform="ios" height="144"  width="144" />
+	<icon src="icons/ios/icon-120.png" gap:platform="ios" height="120"  width="120" />
+	<icon src="icons/ios/icon-76.png" gap:platform="ios" height="76"  width="76" />
+	<icon src="icons/ios/icon-152.png" gap:platform="ios" height="152"  width="152" />
 
 </widget>
